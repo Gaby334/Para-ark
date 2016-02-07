@@ -1,5 +1,3 @@
-# Para-ark
-Estoy haciendo un curso y me pone: Set the font-weight to bold y como puedes ver esta bien puesto, te he pasado solo el css porque elr esto esta bien ya
 .nav a {
   color: #5a5a5a;
   font-size: 11px;
@@ -8,43 +6,55 @@ Estoy haciendo un curso y me pone: Set the font-weight to bold y como puedes ver
   text-transform: uppercase;
 }
 
-.nav li {
-  display: inline;
-}
 
-.jumbotron {
-  background-image:url('http://goo.gl/04j7Nn');
-  height: 500px;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="main.css" rel="stylesheet">
+  </head>
+  
+  <body>
+    <div class=".nav a">
+      <div class="container">
+        <ul>
+          <li><a href="#">Airbnb logo</a></li>
+          <li><a href="#">Browse</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Sign Up</a></li>
+          <li><a href="#">Log In</a></li>
+          <li><a href="#">Help</a></li>
+        </ul>
+      </div>
+    </div>
 
-.jumbotron .container {
-  position: relative;
-  top:100px;
-}
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Find a place to stay.</h1>
+        <p>Rent from people in over 34,000 cities and 192 countries.</p>
+      </div>
+    </div> 
 
-.jumbotron h1 {
-  color: #fff;
-  font-size: 48px;  
-  font-family: 'Shift', sans-serif;
-  font-weight: bold;
-}
-
-.jumbotron p {
-  font-size: 20px;
-  color: #fff;
-}
-
-.learn-more {
-  background-color: #f7f7f7;
-}
-
-.learn-more h3 {
-  font-family: 'Shift', sans-serif;
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.learn-more a {
-  color: #00b0ff;
+    <div class="learn-more">
+    <div>
+    <div>
+        <div>
+      <h3>Travel</h3>
+      <p>From apartments and rooms to treehouses and boats: stay in unique spaces in 192 countries.</p>
+      <p><a href="#">See how to travel on Airbnb</a></p>
+      </div>
+      <div>
+      <h3>Host</h3>
+      <p>Renting out your unused space could pay your bills or fund your next vacation.</p>
+      <p><a href="#">Learn more about hosting</a></p>
+      </div>
+      <div>
+      <h3>Trust and Safety</h3>
+      <p>From Verified ID to our worldwide customer support team, we've got your back.</p>
+      <p><a href="#">Learn about trust at Airbnb</a></p>
+      </div>
+      </div>
+    </div>
+  </div>
+  </body>
+</html>
